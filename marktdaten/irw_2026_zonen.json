@@ -1,0 +1,5279 @@
+{
+ "jahr": "2026",
+ "zonen": {
+  "11400/101701": {
+   "id": "11400/101701",
+   "wnum": "101701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Altstadt Süd",
+   "irw": 4610,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/101702": {
+   "id": "11400/101702",
+   "wnum": "101702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Severins-Viertel",
+   "irw": 4990,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/101703": {
+   "id": "11400/101703",
+   "wnum": "101703",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Rheinauhafen",
+   "irw": 10400,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "2005",
+    "WHNFL": "135",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "8",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/102701": {
+   "id": "11400/102701",
+   "wnum": "102701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Südstadt",
+   "irw": 5760,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1900",
+    "WHNFL": "60",
+    "WHNA": "10",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/102702": {
+   "id": "11400/102702",
+   "wnum": "102702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Volksgarten-Viertel",
+   "irw": 5070,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/102703": {
+   "id": "11400/102703",
+   "wnum": "102703",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Rathenau-Viertel",
+   "irw": 5010,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/103701": {
+   "id": "11400/103701",
+   "wnum": "103701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Eigelstein",
+   "irw": 4640,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/103702": {
+   "id": "11400/103702",
+   "wnum": "103702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Altstadt Nord",
+   "irw": 5240,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/104701": {
+   "id": "11400/104701",
+   "wnum": "104701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Belgisches Viertel",
+   "irw": 5550,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/104702": {
+   "id": "11400/104702",
+   "wnum": "104702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Agnes-Viertel Ost",
+   "irw": 4760,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/104703": {
+   "id": "11400/104703",
+   "wnum": "104703",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Gerichtsviertel",
+   "irw": 5390,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/105701": {
+   "id": "11400/105701",
+   "wnum": "105701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Deutz",
+   "irw": 4780,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/201701": {
+   "id": "11400/201701",
+   "wnum": "201701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Bayenthal",
+   "irw": 4800,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1985",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/202701": {
+   "id": "11400/202701",
+   "wnum": "202701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Marienburg",
+   "irw": 5930,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "8",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/205701": {
+   "id": "11400/205701",
+   "wnum": "205701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Zollstock",
+   "irw": 4260,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/205702": {
+   "id": "11400/205702",
+   "wnum": "205702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Zollstock Vorgebirgspark",
+   "irw": 3520,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "9-45",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/208701": {
+   "id": "11400/208701",
+   "wnum": "208701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Rodenkirchen",
+   "irw": 3950,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/210701": {
+   "id": "11400/210701",
+   "wnum": "210701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Sürth/Weiß",
+   "irw": 4440,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/301701": {
+   "id": "11400/301701",
+   "wnum": "301701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Klettenberg",
+   "irw": 4770,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1930",
+    "WHNFL": "60",
+    "WHNA": "10",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/302701": {
+   "id": "11400/302701",
+   "wnum": "302701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Sülz",
+   "irw": 5250,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "10",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/302702": {
+   "id": "11400/302702",
+   "wnum": "302702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Sülz Justiz Viertel",
+   "irw": 3510,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "9-45",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/303701": {
+   "id": "11400/303701",
+   "wnum": "303701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Lindenthal",
+   "irw": 5190,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/303702": {
+   "id": "11400/303702",
+   "wnum": "303702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Braunsfeld Süd",
+   "irw": 5140,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "10",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/304701": {
+   "id": "11400/304701",
+   "wnum": "304701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Braunsfeld Nord",
+   "irw": 4530,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/306701": {
+   "id": "11400/306701",
+   "wnum": "306701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Junkersdorf",
+   "irw": 4280,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1985",
+    "WHNFL": "60",
+    "WHNA": "6",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/306702": {
+   "id": "11400/306702",
+   "wnum": "306702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Stüttgerhofsweg",
+   "irw": 3010,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "9-45",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/307701": {
+   "id": "11400/307701",
+   "wnum": "307701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Weiden Nord",
+   "irw": 3390,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/307702": {
+   "id": "11400/307702",
+   "wnum": "307702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Weiden Süd",
+   "irw": 3090,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "100",
+    "WHNA": "80",
+    "ANZG": "9-45",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/401701": {
+   "id": "11400/401701",
+   "wnum": "401701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Ehrenfeld",
+   "irw": 4500,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/401702": {
+   "id": "11400/401702",
+   "wnum": "401702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Ehrenfeld Süd",
+   "irw": 4900,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/401703": {
+   "id": "11400/401703",
+   "wnum": "401703",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Ehrenfeld West",
+   "irw": 4810,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/402701": {
+   "id": "11400/402701",
+   "wnum": "402701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Neuehrenfeld",
+   "irw": 4840,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/402702": {
+   "id": "11400/402702",
+   "wnum": "402702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Ehrenfeld Lukasstraße",
+   "irw": 4610,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/402703": {
+   "id": "11400/402703",
+   "wnum": "402703",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Ehrenfeld Kanalstraße",
+   "irw": 3610,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "35",
+    "WHNA": "80",
+    "ANZG": "9-45",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/501701": {
+   "id": "11400/501701",
+   "wnum": "501701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Nippes",
+   "irw": 4650,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "10",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/502701": {
+   "id": "11400/502701",
+   "wnum": "502701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Mauenheim/Rennbahn-Viertel",
+   "irw": 3750,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1930",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/503701": {
+   "id": "11400/503701",
+   "wnum": "503701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Riehl Niederländer Viertel",
+   "irw": 3930,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "9-45",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/503702": {
+   "id": "11400/503702",
+   "wnum": "503702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Riehl Süd",
+   "irw": 4530,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/504701": {
+   "id": "11400/504701",
+   "wnum": "504701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Niehl",
+   "irw": 3470,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/504702": {
+   "id": "11400/504702",
+   "wnum": "504702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Nordpark",
+   "irw": 3760,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/505701": {
+   "id": "11400/505701",
+   "wnum": "505701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Weidenpesch",
+   "irw": 3030,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/507701": {
+   "id": "11400/507701",
+   "wnum": "507701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Bilderstöckchen",
+   "irw": 3600,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/606701": {
+   "id": "11400/606701",
+   "wnum": "606701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Pesch",
+   "irw": 2820,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/702701": {
+   "id": "11400/702701",
+   "wnum": "702701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Westhoven/Ensen",
+   "irw": 2770,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/705701": {
+   "id": "11400/705701",
+   "wnum": "705701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Eil/Porz Ost/Urbach",
+   "irw": 2830,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/706701": {
+   "id": "11400/706701",
+   "wnum": "706701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Porz/Zündorf Nord",
+   "irw": 2810,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/707701": {
+   "id": "11400/707701",
+   "wnum": "707701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Urbach Süd",
+   "irw": 2270,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "9-45",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/710701": {
+   "id": "11400/710701",
+   "wnum": "710701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Wahn/Wahnheide/Grengel",
+   "irw": 2720,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/714701": {
+   "id": "11400/714701",
+   "wnum": "714701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Zündorf",
+   "irw": 3260,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1985",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/801701": {
+   "id": "11400/801701",
+   "wnum": "801701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Humboldt/Gremberg",
+   "irw": 3010,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/802701": {
+   "id": "11400/802701",
+   "wnum": "802701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Kalk",
+   "irw": 3060,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/804701": {
+   "id": "11400/804701",
+   "wnum": "804701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Höhenberg/Vingst",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/805701": {
+   "id": "11400/805701",
+   "wnum": "805701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Ostheim",
+   "irw": 2520,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "35",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/806701": {
+   "id": "11400/806701",
+   "wnum": "806701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Merheim",
+   "irw": 3230,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/809701": {
+   "id": "11400/809701",
+   "wnum": "809701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Neubrück",
+   "irw": 2590,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/901701": {
+   "id": "11400/901701",
+   "wnum": "901701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Mülheim",
+   "irw": 3480,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/901702": {
+   "id": "11400/901702",
+   "wnum": "901702",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Mülheim West",
+   "irw": 3810,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "40",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/903701": {
+   "id": "11400/903701",
+   "wnum": "903701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Buchheim",
+   "irw": 3130,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1955",
+    "WHNFL": "60",
+    "WHNA": "80",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11400/904701": {
+   "id": "11400/904701",
+   "wnum": "904701",
+   "gasl": "11400",
+   "kommune": "Koeln",
+   "name": "Holweide",
+   "irw": 3040,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511400_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "60",
+    "WHNA": "16",
+    "ANZG": "1-8",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "GESLA": "2",
+    "MTYP": "2",
+    "OBJGR": "3"
+   }
+  },
+  "11600/1110": {
+   "id": "11600/1110",
+   "wnum": "1110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3700,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/2110": {
+   "id": "11600/2110",
+   "wnum": "2110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/3110": {
+   "id": "11600/3110",
+   "wnum": "3110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/3120": {
+   "id": "11600/3120",
+   "wnum": "3120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/4110": {
+   "id": "11600/4110",
+   "wnum": "4110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 2900,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/4120": {
+   "id": "11600/4120",
+   "wnum": "4120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/14110": {
+   "id": "11600/14110",
+   "wnum": "14110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3300,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/13120": {
+   "id": "11600/13120",
+   "wnum": "13120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/11110": {
+   "id": "11600/11110",
+   "wnum": "11110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/11120": {
+   "id": "11600/11120",
+   "wnum": "11120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3900,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/11140": {
+   "id": "11600/11140",
+   "wnum": "11140",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3600,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/11150": {
+   "id": "11600/11150",
+   "wnum": "11150",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3600,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/9110": {
+   "id": "11600/9110",
+   "wnum": "9110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 4000,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/9120": {
+   "id": "11600/9120",
+   "wnum": "9120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3700,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/9130": {
+   "id": "11600/9130",
+   "wnum": "9130",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 4100,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/9140": {
+   "id": "11600/9140",
+   "wnum": "9140",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/10110": {
+   "id": "11600/10110",
+   "wnum": "10110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3700,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/10120": {
+   "id": "11600/10120",
+   "wnum": "10120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3300,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/9150": {
+   "id": "11600/9150",
+   "wnum": "9150",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/9160": {
+   "id": "11600/9160",
+   "wnum": "9160",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/10130": {
+   "id": "11600/10130",
+   "wnum": "10130",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 2700,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/10140": {
+   "id": "11600/10140",
+   "wnum": "10140",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/7110": {
+   "id": "11600/7110",
+   "wnum": "7110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/6110": {
+   "id": "11600/6110",
+   "wnum": "6110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3700,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/6120": {
+   "id": "11600/6120",
+   "wnum": "6120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/7120": {
+   "id": "11600/7120",
+   "wnum": "7120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3300,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/7130": {
+   "id": "11600/7130",
+   "wnum": "7130",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 2800,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/8110": {
+   "id": "11600/8110",
+   "wnum": "8110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3000,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/8120": {
+   "id": "11600/8120",
+   "wnum": "8120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3300,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/5110": {
+   "id": "11600/5110",
+   "wnum": "5110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/5120": {
+   "id": "11600/5120",
+   "wnum": "5120",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/5130": {
+   "id": "11600/5130",
+   "wnum": "5130",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/5140": {
+   "id": "11600/5140",
+   "wnum": "5140",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3700,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/11130": {
+   "id": "11600/11130",
+   "wnum": "11130",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3700,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/5170": {
+   "id": "11600/5170",
+   "wnum": "5170",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/8130": {
+   "id": "11600/8130",
+   "wnum": "8130",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/5150": {
+   "id": "11600/5150",
+   "wnum": "5150",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/5160": {
+   "id": "11600/5160",
+   "wnum": "5160",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/16110": {
+   "id": "11600/16110",
+   "wnum": "16110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/13110": {
+   "id": "11600/13110",
+   "wnum": "13110",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3300,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "11600/6130": {
+   "id": "11600/6130",
+   "wnum": "6130",
+   "gasl": "11600",
+   "kommune": "Leverkusen",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "1",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0511600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "70-89",
+    "WHNA": "3-59",
+    "ANZG": "1-3",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "MTYP": "1",
+    "OBJGR": "3"
+   }
+  },
+  "20700/234501": {
+   "id": "20700/234501",
+   "wnum": "234501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Schillerstraße",
+   "irw": 3020,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1983",
+    "WHNFL": "69",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/209601": {
+   "id": "20700/209601",
+   "wnum": "209601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Dietrich-von-Dorendorp-Straße",
+   "irw": 2570,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1974",
+    "WHNFL": "89",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/226701": {
+   "id": "20700/226701",
+   "wnum": "226701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Moitzfeld Zentrum",
+   "irw": 3030,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "85",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/219001": {
+   "id": "20700/219001",
+   "wnum": "219001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Finkenschlag",
+   "irw": 3100,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1983",
+    "WHNFL": "89",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/237801": {
+   "id": "20700/237801",
+   "wnum": "237801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Strassen Süd",
+   "irw": 2700,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "80",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/204001": {
+   "id": "20700/204001",
+   "wnum": "204001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "An den Weihern",
+   "irw": 3850,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1998",
+    "WHNFL": "111",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/222601": {
+   "id": "20700/222601",
+   "wnum": "222601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kempenerstraße - Paffrath",
+   "irw": 2680,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1971",
+    "WHNFL": "100",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/232401": {
+   "id": "20700/232401",
+   "wnum": "232401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Rispenweg",
+   "irw": 2770,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1968",
+    "WHNFL": "83",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/229801": {
+   "id": "20700/229801",
+   "wnum": "229801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Paffrath Zentum Nord",
+   "irw": 2150,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1974",
+    "WHNFL": "73",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/237401": {
+   "id": "20700/237401",
+   "wnum": "237401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Steinacker",
+   "irw": 1860,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1971",
+    "WHNFL": "80",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/235301": {
+   "id": "20700/235301",
+   "wnum": "235301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Schneppruthe",
+   "irw": 2110,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1973",
+    "WHNFL": "90",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/209401": {
+   "id": "20700/209401",
+   "wnum": "209401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Dellbrücker Straße Nord",
+   "irw": 3530,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1998",
+    "WHNFL": "80",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/222201": {
+   "id": "20700/222201",
+   "wnum": "222201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Katterbachstraße",
+   "irw": 3970,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1967",
+    "WHNFL": "88",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/201921": {
+   "id": "20700/201921",
+   "wnum": "201921",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Klutstein, Katharinental, Am Katterbach, Katterbachstraße",
+   "irw": 2280,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "94",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/218001": {
+   "id": "20700/218001",
+   "wnum": "218001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Hoppersheider Weg",
+   "irw": 2980,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1978",
+    "WHNFL": "77",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/201201": {
+   "id": "20700/201201",
+   "wnum": "201201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Brücker Bach",
+   "irw": 3500,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1991",
+    "WHNFL": "82",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/230521": {
+   "id": "20700/230521",
+   "wnum": "230521",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "In der Taufe, Dolmanstraße, Paul-Gerhardt-Straße",
+   "irw": 2920,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "58",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/205001": {
+   "id": "20700/205001",
+   "wnum": "205001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Anemonenweg",
+   "irw": 4030,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1986",
+    "WHNFL": "74",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/233601": {
+   "id": "20700/233601",
+   "wnum": "233601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Sandbüchel",
+   "irw": 3570,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "72",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/223201": {
+   "id": "20700/223201",
+   "wnum": "223201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kippekausen",
+   "irw": 3050,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1958",
+    "WHNFL": "67",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/205601": {
+   "id": "20700/205601",
+   "wnum": "205601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Auf dem Schmillenberg",
+   "irw": 5230,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2020",
+    "WHNFL": "88",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/210401": {
+   "id": "20700/210401",
+   "wnum": "210401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Eidechsenweg",
+   "irw": 3980,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2001",
+    "WHNFL": "87",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/240701": {
+   "id": "20700/240701",
+   "wnum": "240701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Zum Steinrutsch",
+   "irw": 3510,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1998",
+    "WHNFL": "113",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/239401": {
+   "id": "20700/239401",
+   "wnum": "239401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Waldgürtel",
+   "irw": 3210,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1968",
+    "WHNFL": "81",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/236301": {
+   "id": "20700/236301",
+   "wnum": "236301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Siebenmorgen / Dolmanstraße",
+   "irw": 2880,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1973",
+    "WHNFL": "69",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/211001": {
+   "id": "20700/211001",
+   "wnum": "211001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Ferdinand-Stucker-Straße",
+   "irw": 2750,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1976",
+    "WHNFL": "83",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/219301": {
+   "id": "20700/219301",
+   "wnum": "219301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Luchsfeld",
+   "irw": 3970,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1998",
+    "WHNFL": "83",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/220101": {
+   "id": "20700/220101",
+   "wnum": "220101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "In der Auen",
+   "irw": 2920,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1969",
+    "WHNFL": "75",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/232301": {
+   "id": "20700/232301",
+   "wnum": "232301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Richard-Zanders-Straße",
+   "irw": 2880,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1998",
+    "WHNFL": "62",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/210501": {
+   "id": "20700/210501",
+   "wnum": "210501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Eschenbroichstraße",
+   "irw": 2940,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1982",
+    "WHNFL": "81",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/222001": {
+   "id": "20700/222001",
+   "wnum": "222001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kämperfeld, Marijampolestraße",
+   "irw": 3740,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1994",
+    "WHNFL": "66",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/209001": {
+   "id": "20700/209001",
+   "wnum": "209001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Damaschkestraße",
+   "irw": 2140,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1956",
+    "WHNFL": "61",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/235001": {
+   "id": "20700/235001",
+   "wnum": "235001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Schluchterheide",
+   "irw": 3080,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "85",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/220701": {
+   "id": "20700/220701",
+   "wnum": "220701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Irlenfelder Weg / Fuchskaule",
+   "irw": 2780,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1983",
+    "WHNFL": "94",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/201301": {
+   "id": "20700/201301",
+   "wnum": "201301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Eichenberg",
+   "irw": 3960,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2002",
+    "WHNFL": "80",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/226001": {
+   "id": "20700/226001",
+   "wnum": "226001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Margaretenhöhe",
+   "irw": 3700,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1992",
+    "WHNFL": "113",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/226301": {
+   "id": "20700/226301",
+   "wnum": "226301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Max-Bruch-Straße",
+   "irw": 2810,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1965",
+    "WHNFL": "78",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/202601": {
+   "id": "20700/202601",
+   "wnum": "202601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Mühlenberg",
+   "irw": 2880,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1978",
+    "WHNFL": "76",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/212401": {
+   "id": "20700/212401",
+   "wnum": "212401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Gierath",
+   "irw": 2930,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1979",
+    "WHNFL": "90",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/232601": {
+   "id": "20700/232601",
+   "wnum": "232601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Rodemich",
+   "irw": 3330,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1984",
+    "WHNFL": "86",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/227201": {
+   "id": "20700/227201",
+   "wnum": "227201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Mülheimer Straße",
+   "irw": 4470,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2006",
+    "WHNFL": "87",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/204101": {
+   "id": "20700/204101",
+   "wnum": "204101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "An der Engelsfuht",
+   "irw": 3140,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1987",
+    "WHNFL": "72",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/202801": {
+   "id": "20700/202801",
+   "wnum": "202801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Reiferbusch",
+   "irw": 3100,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1992",
+    "WHNFL": "72",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/203301": {
+   "id": "20700/203301",
+   "wnum": "203301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Vogelherd",
+   "irw": 5860,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2023",
+    "WHNFL": "141",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/220401": {
+   "id": "20700/220401",
+   "wnum": "220401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "In der Schlade",
+   "irw": 3380,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2005",
+    "WHNFL": "97",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/220301": {
+   "id": "20700/220301",
+   "wnum": "220301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "In der Kümp",
+   "irw": 3480,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1998",
+    "WHNFL": "70",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/210901": {
+   "id": "20700/210901",
+   "wnum": "210901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Fauthstraße",
+   "irw": 3390,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1981",
+    "WHNFL": "84",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/236101": {
+   "id": "20700/236101",
+   "wnum": "236101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Schützheider Weg",
+   "irw": 3590,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1994",
+    "WHNFL": "76",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/225001": {
+   "id": "20700/225001",
+   "wnum": "225001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Lichtenweg",
+   "irw": 5320,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2022",
+    "WHNFL": "70",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/208701": {
+   "id": "20700/208701",
+   "wnum": "208701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Christophorusstraße",
+   "irw": 4380,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2020",
+    "WHNFL": "82",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/236001": {
+   "id": "20700/236001",
+   "wnum": "236001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Schützenstraße",
+   "irw": 2360,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1986",
+    "WHNFL": "94",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/211101": {
+   "id": "20700/211101",
+   "wnum": "211101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Ferrenbergstraße",
+   "irw": 5570,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2018",
+    "WHNFL": "82",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/201101": {
+   "id": "20700/201101",
+   "wnum": "201101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Birkenbusch",
+   "irw": 2920,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1973",
+    "WHNFL": "79",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/222801": {
+   "id": "20700/222801",
+   "wnum": "222801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kiefernweg",
+   "irw": 2380,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1981",
+    "WHNFL": "101",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/228801": {
+   "id": "20700/228801",
+   "wnum": "228801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Oberlückerath",
+   "irw": 3340,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2007",
+    "WHNFL": "87",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/215001": {
+   "id": "20700/215001",
+   "wnum": "215001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Handstraße, Paffrather Straße",
+   "irw": 2330,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "85",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/233501": {
+   "id": "20700/233501",
+   "wnum": "233501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Saaler Straße",
+   "irw": 3110,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1973",
+    "WHNFL": "117",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/228001": {
+   "id": "20700/228001",
+   "wnum": "228001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Neuenweg",
+   "irw": 2960,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1981",
+    "WHNFL": "60",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/238101": {
+   "id": "20700/238101",
+   "wnum": "238101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Theodor-Storm-Straße",
+   "irw": 6600,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2019",
+    "WHNFL": "104",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/218601": {
+   "id": "20700/218601",
+   "wnum": "218601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Alten Feld",
+   "irw": 3980,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "92",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/233201": {
+   "id": "20700/233201",
+   "wnum": "233201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Rosenhecke",
+   "irw": 4070,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2004",
+    "WHNFL": "97",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/231821": {
+   "id": "20700/231821",
+   "wnum": "231821",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Reginharstraße, Giselbertstraße",
+   "irw": 1570,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1971",
+    "WHNFL": "78",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/212801": {
+   "id": "20700/212801",
+   "wnum": "212801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Giselbertstraße",
+   "irw": 3030,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "84",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/218301": {
+   "id": "20700/218301",
+   "wnum": "218301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Hungenberg",
+   "irw": 5970,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2012",
+    "WHNFL": "90",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/202401": {
+   "id": "20700/202401",
+   "wnum": "202401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Milchbornbach",
+   "irw": 3060,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1992",
+    "WHNFL": "59",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/201501": {
+   "id": "20700/201501",
+   "wnum": "201501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Gräfenweiher",
+   "irw": 3460,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1996",
+    "WHNFL": "90",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/234001": {
+   "id": "20700/234001",
+   "wnum": "234001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Sander Straße / Schulstraße",
+   "irw": 2360,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1979",
+    "WHNFL": "96",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/237901": {
+   "id": "20700/237901",
+   "wnum": "237901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Strassen Zentrum",
+   "irw": 2520,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "71",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/203001": {
+   "id": "20700/203001",
+   "wnum": "203001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Schild",
+   "irw": 3470,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2009",
+    "WHNFL": "85",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/200601": {
+   "id": "20700/200601",
+   "wnum": "200601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Altenberger-Dom-Straße Mitte",
+   "irw": 4790,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2007",
+    "WHNFL": "72",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/228201": {
+   "id": "20700/228201",
+   "wnum": "228201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Nittumer Weg MI",
+   "irw": 2640,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1936",
+    "WHNFL": "87",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/228301": {
+   "id": "20700/228301",
+   "wnum": "228301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Nittumer Weg W",
+   "irw": 2680,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "70",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/200401": {
+   "id": "20700/200401",
+   "wnum": "200401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Altenberger-Dom-Straße, Kempener Straße",
+   "irw": 2980,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1999",
+    "WHNFL": "75",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/229401": {
+   "id": "20700/229401",
+   "wnum": "229401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Om Rodde",
+   "irw": 5020,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2017",
+    "WHNFL": "91",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/215201": {
+   "id": "20700/215201",
+   "wnum": "215201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Handstraße",
+   "irw": 2540,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "74",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/236701": {
+   "id": "20700/236701",
+   "wnum": "236701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Sonnenweg",
+   "irw": 2890,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1997",
+    "WHNFL": "73",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/234301": {
+   "id": "20700/234301",
+   "wnum": "234301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Scharrenbroichweg",
+   "irw": 3450,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2001",
+    "WHNFL": "97",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/223901": {
+   "id": "20700/223901",
+   "wnum": "223901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kopernikusstraße",
+   "irw": 4090,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1987",
+    "WHNFL": "91",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/236601": {
+   "id": "20700/236601",
+   "wnum": "236601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Simonswiese",
+   "irw": 3440,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1982",
+    "WHNFL": "80",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/239201": {
+   "id": "20700/239201",
+   "wnum": "239201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Vürfels MI",
+   "irw": 3240,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1987",
+    "WHNFL": "71",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/225801": {
+   "id": "20700/225801",
+   "wnum": "225801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Lustheide MI",
+   "irw": 2800,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1993",
+    "WHNFL": "30",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/222701": {
+   "id": "20700/222701",
+   "wnum": "222701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kempershäuschen",
+   "irw": 3530,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2002",
+    "WHNFL": "93",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/212901": {
+   "id": "20700/212901",
+   "wnum": "212901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Gladbacher Straße I",
+   "irw": 2990,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1993",
+    "WHNFL": "73",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/234921": {
+   "id": "20700/234921",
+   "wnum": "234921",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Schloßstraße, Kadettenstraße, Engelbertstraße",
+   "irw": 3040,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "101",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/230101": {
+   "id": "20700/230101",
+   "wnum": "230101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Paffrather Straße MI",
+   "irw": 5420,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2023",
+    "WHNFL": "81",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/213001": {
+   "id": "20700/213001",
+   "wnum": "213001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Gladbacher Straße II",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1986",
+    "WHNFL": "98",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/207901": {
+   "id": "20700/207901",
+   "wnum": "207901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Broicher Straße",
+   "irw": 3480,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1988",
+    "WHNFL": "109",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/229701": {
+   "id": "20700/229701",
+   "wnum": "229701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Overather Straße",
+   "irw": 3270,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1991",
+    "WHNFL": "80",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/240101": {
+   "id": "20700/240101",
+   "wnum": "240101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Wipperfürther Straße",
+   "irw": 3390,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1984",
+    "WHNFL": "97",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/218801": {
+   "id": "20700/218801",
+   "wnum": "218801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Dornbusch",
+   "irw": 2990,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1981",
+    "WHNFL": "72",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/226601": {
+   "id": "20700/226601",
+   "wnum": "226601",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Moitzfeld Mitte",
+   "irw": 5440,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2016",
+    "WHNFL": "98",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/220801": {
+   "id": "20700/220801",
+   "wnum": "220801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Jägerhof",
+   "irw": 2690,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1983",
+    "WHNFL": "92",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/221401": {
+   "id": "20700/221401",
+   "wnum": "221401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Johannesstraße / Theodorstraße",
+   "irw": 2960,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1983",
+    "WHNFL": "69",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/229101": {
+   "id": "20700/229101",
+   "wnum": "229101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Odenthaler Straße  MI",
+   "irw": 4340,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2012",
+    "WHNFL": "91",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/215701": {
+   "id": "20700/215701",
+   "wnum": "215701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Hauptstraße / obere Hauptstraße",
+   "irw": 1460,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "97",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/233801": {
+   "id": "20700/233801",
+   "wnum": "233801",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Sander Straße",
+   "irw": 3670,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1996",
+    "WHNFL": "98",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/207201": {
+   "id": "20700/207201",
+   "wnum": "207201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Braunkohlenstraße",
+   "irw": 2950,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "63",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/232201": {
+   "id": "20700/232201",
+   "wnum": "232201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Richard-Seiffert-Straße",
+   "irw": 3280,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1998",
+    "WHNFL": "73",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/223501": {
+   "id": "20700/223501",
+   "wnum": "223501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kölner Straße MI",
+   "irw": 4570,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2000",
+    "WHNFL": "80",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/206501": {
+   "id": "20700/206501",
+   "wnum": "206501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Bensberger Straße / Zentrum",
+   "irw": 3470,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "67",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/216901": {
+   "id": "20700/216901",
+   "wnum": "216901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Heidkamperstraße",
+   "irw": 2970,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1962",
+    "WHNFL": "74",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/215121": {
+   "id": "20700/215121",
+   "wnum": "215121",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Beethovenstraße, Schubertstraße, Kurt-Schumacher-Straße",
+   "irw": 2640,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1978",
+    "WHNFL": "73",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/208301": {
+   "id": "20700/208301",
+   "wnum": "208301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Büschemer Straße",
+   "irw": 3730,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2004",
+    "WHNFL": "88",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/211901": {
+   "id": "20700/211901",
+   "wnum": "211901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Friedrichstraße",
+   "irw": 3270,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1979",
+    "WHNFL": "86",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/240821": {
+   "id": "20700/240821",
+   "wnum": "240821",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Schloßpark",
+   "irw": 3750,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2001",
+    "WHNFL": "136",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/229301": {
+   "id": "20700/229301",
+   "wnum": "229301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Odinweg",
+   "irw": 4440,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2008",
+    "WHNFL": "140",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/217301": {
+   "id": "20700/217301",
+   "wnum": "217301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Herkenrath Zentrum",
+   "irw": 2430,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1992",
+    "WHNFL": "81",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/231101": {
+   "id": "20700/231101",
+   "wnum": "231101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Platzer Höhenweg",
+   "irw": 5480,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2017",
+    "WHNFL": "91",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/230301": {
+   "id": "20700/230301",
+   "wnum": "230301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Paffrather Straße / Am Alten Pastorat",
+   "irw": 2100,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1986",
+    "WHNFL": "81",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/218701": {
+   "id": "20700/218701",
+   "wnum": "218701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Birkelshof",
+   "irw": 3640,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2005",
+    "WHNFL": "74",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/240401": {
+   "id": "20700/240401",
+   "wnum": "240401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Zum Scheider Feld W",
+   "irw": 2520,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1981",
+    "WHNFL": "59",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/231001": {
+   "id": "20700/231001",
+   "wnum": "231001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Platanenweg",
+   "irw": 3050,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1987",
+    "WHNFL": "88",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/218501": {
+   "id": "20700/218501",
+   "wnum": "218501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Aehlemaar",
+   "irw": 3070,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1997",
+    "WHNFL": "87",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/222401": {
+   "id": "20700/222401",
+   "wnum": "222401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kempener Straße",
+   "irw": 2520,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1984",
+    "WHNFL": "77",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/237701": {
+   "id": "20700/237701",
+   "wnum": "237701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Sträßchen Siefen",
+   "irw": 2990,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "87",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/239501": {
+   "id": "20700/239501",
+   "wnum": "239501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Weidenbuscher Weg",
+   "irw": 5240,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2016",
+    "WHNFL": "101",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/237501": {
+   "id": "20700/237501",
+   "wnum": "237501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Steinenkamp",
+   "irw": 3190,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1983",
+    "WHNFL": "59",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/228501": {
+   "id": "20700/228501",
+   "wnum": "228501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Nußbaumer Straße",
+   "irw": 3300,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2004",
+    "WHNFL": "99",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/200301": {
+   "id": "20700/200301",
+   "wnum": "200301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Alte Wipperfürther Straße",
+   "irw": 5550,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2016",
+    "WHNFL": "122",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/218901": {
+   "id": "20700/218901",
+   "wnum": "218901",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Drosselhain",
+   "irw": 3960,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1968",
+    "WHNFL": "114",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/216701": {
+   "id": "20700/216701",
+   "wnum": "216701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Hebborner Straße",
+   "irw": 2260,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1962",
+    "WHNFL": "95",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/227501": {
+   "id": "20700/227501",
+   "wnum": "227501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Mutzer Straße Nord",
+   "irw": 2680,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1974",
+    "WHNFL": "97",
+    "WHNA": "3-6",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/202201": {
+   "id": "20700/202201",
+   "wnum": "202201",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Am Kuhlerbusch 12-14",
+   "irw": 5540,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2022",
+    "WHNFL": "88",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/221711": {
+   "id": "20700/221711",
+   "wnum": "221711",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Wohnkarree Gronau",
+   "irw": 5640,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2022",
+    "WHNFL": "66",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/222221": {
+   "id": "20700/222221",
+   "wnum": "222221",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Kempener Straße, Katterbachstraße",
+   "irw": 2550,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "68",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/223621": {
+   "id": "20700/223621",
+   "wnum": "223621",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Von-Ketteler-Straße 3-17",
+   "irw": 2600,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "82",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/227221": {
+   "id": "20700/227221",
+   "wnum": "227221",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Mülheimer Straße 121-137",
+   "irw": 1390,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1975",
+    "WHNFL": "70",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/230121": {
+   "id": "20700/230121",
+   "wnum": "230121",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Marienhöhe",
+   "irw": 1940,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1960",
+    "WHNFL": "102",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/236721": {
+   "id": "20700/236721",
+   "wnum": "236721",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Sonnenweg 1-7",
+   "irw": 2050,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1973",
+    "WHNFL": "92",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/233121": {
+   "id": "20700/233121",
+   "wnum": "233121",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Rommerscheider Straße Süd",
+   "irw": 2710,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1978",
+    "WHNFL": "86",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/219021": {
+   "id": "20700/219021",
+   "wnum": "219021",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Habichtweg",
+   "irw": 2810,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1976",
+    "WHNFL": "72",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/213121": {
+   "id": "20700/213121",
+   "wnum": "213121",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Max-Joseph-Str., Elisabethstr., Karl-Philipp-Str.",
+   "irw": 2460,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1969",
+    "WHNFL": "78",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/218621": {
+   "id": "20700/218621",
+   "wnum": "218621",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Wiesenwinkel",
+   "irw": 3030,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "73",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/223401": {
+   "id": "20700/223401",
+   "wnum": "223401",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Im Bungert",
+   "irw": 2570,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1971",
+    "WHNFL": "80",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/240721": {
+   "id": "20700/240721",
+   "wnum": "240721",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Zum Steinrutsch, Iddelsfeld",
+   "irw": 2690,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "83",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/223221": {
+   "id": "20700/223221",
+   "wnum": "223221",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "An der Wallburg, Am Burgtor, Burgplatz",
+   "irw": 2240,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1963",
+    "WHNFL": "58",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/225821": {
+   "id": "20700/225821",
+   "wnum": "225821",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Lustheide 95-105",
+   "irw": 2890,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1971",
+    "WHNFL": "72",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/230501": {
+   "id": "20700/230501",
+   "wnum": "230501",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Paul-Gerhardt-Straße",
+   "irw": 4010,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1993",
+    "WHNFL": "89",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/225831": {
+   "id": "20700/225831",
+   "wnum": "225831",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Lustheide 1-7",
+   "irw": 2620,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1972",
+    "WHNFL": "59",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/223521": {
+   "id": "20700/223521",
+   "wnum": "223521",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Steinstraße",
+   "irw": 2780,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "77",
+    "WHNA": "60-500",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/215101": {
+   "id": "20700/215101",
+   "wnum": "215101",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Händelstraße",
+   "irw": 3270,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1984",
+    "WHNFL": "67",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/240001": {
+   "id": "20700/240001",
+   "wnum": "240001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Willy-Brandt-Straße",
+   "irw": 3810,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2004",
+    "WHNFL": "67",
+    "WHNA": "7-12",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/225301": {
+   "id": "20700/225301",
+   "wnum": "225301",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Löher Höhenweg",
+   "irw": 2930,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2000",
+    "WHNFL": "99",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "20700/221001": {
+   "id": "20700/221001",
+   "wnum": "221001",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Köttgenallee",
+   "irw": 5680,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "2026",
+    "WHNFL": "63",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "1"
+   }
+  },
+  "20700/209701": {
+   "id": "20700/209701",
+   "wnum": "209701",
+   "gasl": "20700",
+   "kommune": "Bergisch Gladbach",
+   "name": "Dolmanstraße",
+   "irw": 2670,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0520700_2026.pdf",
+   "norm": {
+    "BJ": "1979",
+    "WHNFL": "77",
+    "WHNA": "13-60",
+    "GSTAND": "6",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11001": {
+   "id": "31600/11001",
+   "wnum": "11001",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1990",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11002": {
+   "id": "31600/11002",
+   "wnum": "11002",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 2850,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1980",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11003": {
+   "id": "31600/11003",
+   "wnum": "11003",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3000,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1985",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11004": {
+   "id": "31600/11004",
+   "wnum": "11004",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 2750,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11005": {
+   "id": "31600/11005",
+   "wnum": "11005",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3450,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11006": {
+   "id": "31600/11006",
+   "wnum": "11006",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 2900,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11007": {
+   "id": "31600/11007",
+   "wnum": "11007",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 2700,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11008": {
+   "id": "31600/11008",
+   "wnum": "11008",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3150,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1990",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11009": {
+   "id": "31600/11009",
+   "wnum": "11009",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1965",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11010": {
+   "id": "31600/11010",
+   "wnum": "11010",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3200,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1990",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11011": {
+   "id": "31600/11011",
+   "wnum": "11011",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3000,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1965",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11012": {
+   "id": "31600/11012",
+   "wnum": "11012",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3550,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "2000",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11015": {
+   "id": "31600/11015",
+   "wnum": "11015",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3800,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "2005",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11016": {
+   "id": "31600/11016",
+   "wnum": "11016",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3550,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "2000",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "31600/11017": {
+   "id": "31600/11017",
+   "wnum": "11017",
+   "gasl": "31600",
+   "kommune": "Langenfeld",
+   "name": "",
+   "irw": 3400,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0531600_2026.pdf",
+   "norm": {
+    "BJ": "1995",
+    "WHNFL": "41-80",
+    "WHNA": "13-65",
+    "AKL": "6",
+    "MIETS": "1",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1001": {
+   "id": "32300/1001",
+   "wnum": "1001",
+   "gasl": "32300",
+   "kommune": "Burscheid",
+   "name": "",
+   "irw": 1650,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1002": {
+   "id": "32300/1002",
+   "wnum": "1002",
+   "gasl": "32300",
+   "kommune": "Burscheid",
+   "name": "",
+   "irw": 2200,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1003": {
+   "id": "32300/1003",
+   "wnum": "1003",
+   "gasl": "32300",
+   "kommune": "Burscheid",
+   "name": "",
+   "irw": 2100,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1004": {
+   "id": "32300/1004",
+   "wnum": "1004",
+   "gasl": "32300",
+   "kommune": "Burscheid",
+   "name": "",
+   "irw": 2300,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1024": {
+   "id": "32300/1024",
+   "wnum": "1024",
+   "gasl": "32300",
+   "kommune": "Burscheid",
+   "name": "",
+   "irw": 2200,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1007": {
+   "id": "32300/1007",
+   "wnum": "1007",
+   "gasl": "32300",
+   "kommune": "Leichlingen",
+   "name": "",
+   "irw": 2700,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1008": {
+   "id": "32300/1008",
+   "wnum": "1008",
+   "gasl": "32300",
+   "kommune": "Leichlingen",
+   "name": "",
+   "irw": 2600,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1009": {
+   "id": "32300/1009",
+   "wnum": "1009",
+   "gasl": "32300",
+   "kommune": "Leichlingen",
+   "name": "",
+   "irw": 2500,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1010": {
+   "id": "32300/1010",
+   "wnum": "1010",
+   "gasl": "32300",
+   "kommune": "Leichlingen",
+   "name": "",
+   "irw": 2700,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1027": {
+   "id": "32300/1027",
+   "wnum": "1027",
+   "gasl": "32300",
+   "kommune": "Leichlingen",
+   "name": "",
+   "irw": 2800,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  },
+  "32300/1028": {
+   "id": "32300/1028",
+   "wnum": "1028",
+   "gasl": "32300",
+   "kommune": "Leichlingen",
+   "name": "",
+   "irw": 3100,
+   "stichtag": "01.01.2026",
+   "brechv": "2",
+   "udok": "https://www.boris.nrw.de/borisfachdaten/lgd/irw/2026/LGDIR_1_0532300_2026.pdf",
+   "norm": {
+    "BJ": "1970",
+    "WHNFL": "50-74",
+    "GSTAND": "5",
+    "MIETS": "1",
+    "RANZ": "3",
+    "AUFZUG": "0",
+    "OBJGR": "3"
+   }
+  }
+ }
+}
