@@ -38,8 +38,25 @@ BASIS = os.path.dirname(os.path.abspath(__file__))
 # Datenordner: Umgebungsvariable MARKTDATEN, sonst marktdaten/ neben dem Skript, sonst Arbeitsordner
 _ORTE = [os.environ.get("MARKTDATEN", ""), os.path.join(BASIS, "marktdaten"), BASIS,
          os.path.join(os.getcwd(), "marktdaten"), "/home/claude/marktdaten"]
-DATEN = next((p for p in _ORTE if p and os.path.exists(os.path.join(p, f"irw_{JAHR}_zonen.json"))),
-             os.path.join(BASIS, "marktdaten"))
+DATEN = next((p for p in _ORTE if p and os.path.exists(os.path.join(p, f"irw_{JAHR}_zonen.json"))), None)
+# Fehlen die Daten lokal (etwa im Chat, wo nur die Skripte im Projektwissen liegen), werden sie
+# einmal aus dem oeffentlichen Repository geladen. Im Nachtlauf liegen sie im Repository.
+QUELLE_DATEN = "https://raw.githubusercontent.com/alexanderleutholdnrw/marktwert-nrw/main/marktdaten/"
+DATEIEN = [f"irw_{JAHR}_zonen.json", f"irw_{JAHR}_adressen.tsv.gz", f"gmb_koeln_{JAHR}_stadtteile.json"]
+
+
+def lade_daten():
+    """Laedt die Marktdaten nach /home/claude/marktdaten (oder ins Arbeitsverzeichnis)."""
+    import urllib.request
+    ziel = "/home/claude/marktdaten" if os.path.isdir("/home/claude") else os.path.join(os.getcwd(), "marktdaten")
+    os.makedirs(ziel, exist_ok=True)
+    for name in DATEIEN:
+        pfad = os.path.join(ziel, name)
+        if not os.path.exists(pfad):
+            with urllib.request.urlopen(QUELLE_DATEN + name, timeout=60) as r, open(pfad + ".tmp", "wb") as fh:
+                fh.write(r.read())
+            os.replace(pfad + ".tmp", pfad)
+    return ziel
 KENNZEICHEN = "⚠️ automatisch, bitte manuell prüfen"
 QUELLE_UK = "LGDIR_1_05{gasl}_2026.pdf (boris.nrw.de)"
 
@@ -321,8 +338,10 @@ _ADR, _ZON, _GMB = None, None, None
 
 
 def daten():
-    global _ADR, _ZON, _GMB
+    global _ADR, _ZON, _GMB, DATEN
     if _ZON is None:
+        if DATEN is None:
+            DATEN = lade_daten()
         with open(os.path.join(DATEN, f"irw_{JAHR}_zonen.json"), encoding="utf-8") as fh:
             _ZON = json.load(fh)["zonen"]
         _ADR = {}
