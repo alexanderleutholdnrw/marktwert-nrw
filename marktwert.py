@@ -62,6 +62,9 @@ QUELLE_UK = "LGDIR_1_05{gasl}_2026.pdf (boris.nrw.de)"
 
 # Leverkusen, Grosswohnanlagen ueber 5 Vollgeschosse (Tab Marktdaten, GMB Leverkusen 2026, S. 44)
 LEV_GROSS = {"einfach": 1750, "mittel": 1990, "gut": 2120}
+# Leverkusen, namentlich genannte Grosswohnanlagen ueber 5 Vollgeschosse (GMB Leverkusen 2026, S. 45)
+LEV_GROSS_STRASSEN = {"hambergerstr": "Hamberger Straße / Am Sandberg", "amsandberg": "Hamberger Straße / Am Sandberg",
+                      "theodorheussring": "Theodor-Heuss-Ring", "wiesdorferplatz": "Wiesdorfer Platz"}
 
 
 # ------------------------------------------------------------ Hilfsfunktionen
@@ -355,20 +358,73 @@ def daten():
     return _ADR, _ZON, _GMB
 
 
-def finde_zonen(kommune, strasse, hausnummer=None):
+KOELN_BEZIRK = {"Porz": "7", "Kalk": "8", "Mülheim": "9", "Innenstadt": "105"}   # Zonennummer beginnt so
+
+
+def _rechtsrheinisch(zid):
+    w = zid.split("/")[1]
+    return w[0] in "789" or w.startswith("105")
+
+
+def _teilfolge(kurz, wort):
+    it = iter(wort)
+    return all(ch in it for ch in kurz)
+
+
+def koeln_variante(varianten, stadtteil):
+    """Koeln fuehrt gleichnamige Strassen mit Stadtteilkuerzel ("Elisenstr." in der Altstadt,
+    "Elisenstr. En" in Ensen). Waehlt die Variante(n) passend zu Stadtteil und Suchregion."""
+    _, _, gmb = daten()
+    st = str(stadtteil or "").lower().replace("köln-", "").replace("koeln-", "").strip()
+    bez = next((KOELN_BEZIRK.get(z["bezirk"]) for z in gmb["zeilen"]
+                if st and (z["stadtteil"].lower() == st or st in z["stadtteil"].lower().split("/"))), None)
+    punkte = {}
+    for name, ee in varianten.items():
+        zonen = {z for e in ee for z in e[2].split(",") if z}
+        m = re.search(r"\s([A-ZÄÖÜ][a-zäöü]{1,2})$", name)
+        kurz = m.group(1).lower() if m else ""
+        if kurz and st and st.startswith(kurz):
+            p = 4
+        elif kurz and st and _teilfolge(kurz, st):
+            p = 3
+        elif bez and zonen and all(z.split("/")[1].startswith(bez) for z in zonen):
+            p = 2
+        elif not zonen or all(_rechtsrheinisch(z) for z in zonen):
+            p = 1
+        else:
+            p = 0          # nur linksrheinische Zonen: ausserhalb der Suchregion
+        punkte[name] = p
+    best = max(punkte.values())
+    return [n for n, p in punkte.items() if p == best], best
+
+
+def finde_zonen(kommune, strasse, hausnummer=None, stadtteil=None):
     """Rueckgabe: (Liste Zonen-IDs, Anteil Adressen ohne Zone, Ebene, Hinweise)."""
     adr, _, _ = daten()
     kom = norm_kommune(kommune)
     if not kom or not strasse:
         return [], None, "keine Adresse", ["Kommune oder Straße fehlt."]
     key = (kom, norm_strasse(strasse))
-    eintraege = adr.get(key)
     hinw = []
-    if not eintraege:   # Koeln: doppelte Strassennamen tragen ein Stadtteilkuerzel ("... Str. Po")
-        kand = [k for k in adr if k[0] == kom and k[1].startswith(key[1]) and len(k[1]) - len(key[1]) <= 3]
-        eintraege = [e for k in kand for e in adr[k]]
-        if kand:
-            hinw.append("Straßenname mehrdeutig: " + ", ".join(sorted({e[3] for e in eintraege})))
+    # alle Schreibvarianten sammeln: exakt und mit Stadtteilkuerzel ("... Str. Po")
+    keys = [k for k in adr if k[0] == kom and k[1].startswith(key[1]) and len(k[1]) - len(key[1]) <= 3]
+    varianten = {}
+    for k in keys:
+        for e in adr[k]:
+            varianten.setdefault(e[3], []).append(e)
+    if len(varianten) > 1 and kom == "Koeln":
+        wahl, p = koeln_variante(varianten, stadtteil)
+        if p == 0:
+            hinw.append("Straße liegt nur in linksrheinischen Zonen: außerhalb der Suchregion, Stadtteil prüfen.")
+        if len(wahl) > 1:
+            hinw.append("Straßenname mehrdeutig: " + ", ".join(sorted(wahl)) + "; Stadtteil angeben.")
+        elif len(wahl) < len(varianten):
+            hinw.append(f"Gleichnamige Straßen: {', '.join(sorted(varianten))}; gewählt: {wahl[0]} "
+                        f"(Stadtteil {stadtteil or 'unbekannt'}).")
+        varianten = {n: varianten[n] for n in wahl}
+    elif len(varianten) > 1:
+        hinw.append("Straßenname mehrdeutig: " + ", ".join(sorted(varianten)))
+    eintraege = [e for ee in varianten.values() for e in ee]
     if not eintraege:
         return [], None, "Straße nicht gefunden", [f"Straße '{strasse}' in {kom} nicht in den Gebäudereferenzen."]
     hnr, zus = norm_hnr(hausnummer)
@@ -413,7 +469,21 @@ def ermittle(d):
     o = Merkmale(d)
     _, zon, _ = daten()
     kom = norm_kommune(d.get("kommune"))
-    zonen, ohne, ebene, hinw = finde_zonen(d.get("kommune"), d.get("strasse"), d.get("hausnummer"))
+    lev_hoch_unklar = False
+    if kom == "Leverkusen" and not o.geschosse:
+        anlage = LEV_GROSS_STRASSEN.get(norm_strasse(d.get("strasse")))
+        if anlage:
+            o.geschosse = 6
+            vorab = [f"Leverkusen: {anlage} ist laut GMB 2026 S. 45 eine Großwohnanlage über 5 Vollgeschosse."]
+        else:
+            lev_hoch_unklar = True
+            vorab = ["Leverkusen: Geschosszahl fehlt. Liegt das Gebäude über 5 Vollgeschossen, gilt kein Richtwert; "
+                     "deshalb zusätzlich der Wert für Großwohnanlagen. Vollgeschosse im Exposé nachsehen."]
+    else:
+        vorab = []
+    zonen, ohne, ebene, hinw = finde_zonen(d.get("kommune"), d.get("strasse"), d.get("hausnummer"),
+                                           d.get("stadtteil"))
+    hinw = vorab + hinw
     kand = []
     for zid in zonen:
         z = zon[zid]
@@ -435,7 +505,7 @@ def ermittle(d):
             kand.append({"art": "GMB-Stadtteil", **g})
         elif not kand:
             hinw.append(f"Köln: Stadtteil '{d.get('stadtteil')}' nicht in der Rückfalltabelle (nur rechtsrheinisch).")
-    if kom == "Leverkusen" and o.geschosse and o.geschosse > 5:
+    if kom == "Leverkusen" and ((o.geschosse and o.geschosse > 5) or (lev_hoch_unklar and kand)):
         kand.append({"art": "Marktdaten", "wert_qm": LEV_GROSS["einfach"],
                      "spanne_qm": (LEV_GROSS["einfach"], LEV_GROSS["gut"]),
                      "quelle": "Tab Marktdaten, GMB Leverkusen 2026 S. 44, Großwohnanlagen einfach/mittel/gut "
@@ -449,6 +519,10 @@ def ermittle(d):
         return r
     werte = [k["wert_qm"] for k in kand] + [k["spanne_qm"][1] for k in kand if k["art"] == "Marktdaten"]
     lo, hi = min(werte), max(werte)
+    # Ausnahme "unter Marktwert" im Vorfilter nur mit gesichertem Hoechstwert: haengt der Richtwert an einer
+    # unbekannten Geschosszahl (Leverkusen), zaehlt fuer die Ausnahme nur der Wert der Grosswohnanlagen.
+    hi_ausnahme = LEV_GROSS["gut"] if lev_hoch_unklar else hi
+    r.update(marktwert_max_ausnahme=round(hi_ausnahme * o.flaeche) if o.flaeche else None)
     r.update(status="eindeutig" if len(kand) == 1 and kand[0]["art"] == "Richtwert" else "unsicher",
              wert_qm=lo, wert_qm_max=hi,
              marktwert=round(lo * o.flaeche) if o.flaeche else None,
@@ -459,14 +533,17 @@ def ermittle(d):
 
 
 def vorfilter(r, kaufpreis):
-    """Modus 0, Stufe 1: Ergaenzung zum Faktor-Vorfilter (Entscheidung f)."""
+    """Modus 0, Stufe 1: Ergaenzung zum Faktor-Vorfilter (Entscheidung f).
+    Aussortieren mit dem hoechsten moeglichen Wert (sicher, verliert nichts); die Ausnahme
+    "unter Marktwert" mit dem gesicherten Hoechstwert (kein Weiterleiten wegen einer Annahme)."""
     if not r.get("marktwert_max") or not kaufpreis:
         return "kein Urteil (Marktwert fehlt)"
     q = kaufpreis / r["marktwert_max"]
+    qa = kaufpreis / (r.get("marktwert_max_ausnahme") or r["marktwert_max"])
     if q > 1.25:
         return f"aussortieren: Kaufpreis {q - 1:+.0%} über dem höchsten möglichen Marktwert"
-    if q <= 0.90:
-        return f"weiterleiten trotz Faktor: Kaufpreis {q - 1:+.0%} unter dem höchsten möglichen Marktwert"
+    if qa <= 0.90:
+        return f"weiterleiten trotz Faktor: Kaufpreis {qa - 1:+.0%} unter dem gesicherten höchsten Marktwert"
     return f"neutral: Kaufpreis {q - 1:+.0%} zum höchsten möglichen Marktwert"
 
 
@@ -542,6 +619,27 @@ def selbsttest():
                   "wohnflaeche_kosten": 80})
     pruef("Giselbertstraße ohne Nr.: niedrigster Wert je m²", r["wert_qm"], 1570, 0)
     pruef("Giselbertstraße ohne Nr.: höchster Wert je m²", r["wert_qm_max"], 2744, 3)
+    r = ermittle({"kommune": "Köln", "stadtteil": "Ensen", "strasse": "Elisenstraße", "hausnummer": "98",
+                  "baujahr": 1970, "wohnflaeche_miete": 55.52})
+    pruef("Köln Elisenstraße Ensen: Zone 702701 statt Altstadt", int(r["kandidaten"][0].get("zone") == "702701"), 1, 0)
+    r = ermittle({"kommune": "Köln", "strasse": "Elisenstraße", "baujahr": 1970, "wohnflaeche_miete": 55.52})
+    pruef("Köln Elisenstraße ohne Stadtteil: rechtsrheinisch", int(all(k.get("zone", "7")[0] in "789"
+          for k in r["kandidaten"])), 1, 0)
+    r = ermittle({"kommune": "Leverkusen", "strasse": "Hamberger Straße", "baujahr": 1971,
+                  "wohnflaeche_miete": 78.01})
+    pruef("Leverkusen Hamberger Straße: Großwohnanlage je m²", r["wert_qm"], 1750, 0)
+    pruef("Leverkusen Hamberger Straße: kein Richtwert", int(all(k["art"] != "Richtwert"
+          for k in r["kandidaten"])), 1, 0)
+    r = ermittle({"kommune": "Leverkusen", "strasse": "Weiherstraße", "hausnummer": "15", "baujahr": 1967,
+                  "wohnflaeche_miete": 81})
+    pruef("Leverkusen ohne Geschosszahl: niedrigster Wert", r["wert_qm"], 1750, 0)
+    pruef("Leverkusen ohne Geschosszahl: keine Ausnahme bei 175.000",
+          int(vorfilter(r, 175000).startswith("weiterleiten")), 0, 0)
+    pruef("Leverkusen ohne Geschosszahl: Ausnahme bei 129.000",
+          int(vorfilter(r, 129000).startswith("weiterleiten")), 1, 0)
+    r = ermittle({"kommune": "Leverkusen", "strasse": "Weiherstraße", "hausnummer": "15", "baujahr": 1967,
+                  "wohnflaeche_miete": 81, "geschosse": 11})
+    pruef("Leverkusen 11 Geschosse: nur Großwohnanlage", int(len(r["kandidaten"]) == 1), 1, 0)
     pruef("Vorfilter: 30 % über höchstem Wert", int(vorfilter({"marktwert_max": 100000}, 130000)
                                                      .startswith("aussortieren")), 1, 0)
     pruef("Vorfilter: 10 % unter höchstem Wert", int(vorfilter({"marktwert_max": 100000}, 90000)
