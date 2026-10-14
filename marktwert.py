@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Automatischer Marktwert aus den Immobilienrichtwerten NRW (Teil von Rechenmodell V3).
+"""Automatischer Marktwert aus den Immobilienrichtwerten NRW (Teil von Rechenmodell V4).
 
 Nur Standardbibliothek. Daten in marktdaten/ (jaehrlich mit aufbereitung_irw.py erzeugen).
 
@@ -23,7 +23,11 @@ Regeln (CLAUDE.md, Parameter 16 und Modus 0):
     * Koeln ohne Zone: Rueckfall auf GMB Koeln (Baujahresklasse ab 5 Faellen, sonst
       Weiterverkauf gesamt), vermietet mal 0,94.
     * Leverkusen ueber 5 Vollgeschosse: kein Richtwert, Werte fuer Grosswohnanlagen aus
-      dem Tab Marktdaten (GMB Leverkusen 2026, S. 44).
+      dem Tab Marktdaten (GMB Leverkusen 2026, S. 44); fuer die namentlich genannten Anlagen
+      Hamberger Strasse/Am Sandberg, Theodor-Heuss-Ring und Wiesdorfer Platz der Anlagenwert
+      von S. 45 (V4).
+    * Ausnahme "unter Marktwert" im Vorfilter (V4): bei mehreren moeglichen Richtwertzonen
+      (Hausnummer fehlt) zaehlt der Median der Zonenwerte, nicht der hoechste.
 """
 
 import gzip
@@ -63,6 +67,8 @@ QUELLE_UK = "LGDIR_1_05{gasl}_2026.pdf (boris.nrw.de)"
 # Leverkusen, Grosswohnanlagen ueber 5 Vollgeschosse (Tab Marktdaten, GMB Leverkusen 2026, S. 44)
 LEV_GROSS = {"einfach": 1750, "mittel": 1990, "gut": 2120}
 # Leverkusen, namentlich genannte Grosswohnanlagen ueber 5 Vollgeschosse (GMB Leverkusen 2026, S. 45)
+# Werte der namentlich genannten Anlagen, GMB Leverkusen 2026, S. 45 (Kauffaelle 2025)
+LEV_GROSS_ANLAGE = {"Hamberger Straße / Am Sandberg": 1745, "Theodor-Heuss-Ring": 1935, "Wiesdorfer Platz": 2095}
 LEV_GROSS_STRASSEN = {"hambergerstr": "Hamberger Straße / Am Sandberg", "amsandberg": "Hamberger Straße / Am Sandberg",
                       "theodorheussring": "Theodor-Heuss-Ring", "wiesdorferplatz": "Wiesdorfer Platz"}
 
@@ -470,8 +476,8 @@ def ermittle(d):
     _, zon, _ = daten()
     kom = norm_kommune(d.get("kommune"))
     lev_hoch_unklar = False
+    anlage = LEV_GROSS_STRASSEN.get(norm_strasse(d.get("strasse"))) if kom == "Leverkusen" else None
     if kom == "Leverkusen" and not o.geschosse:
-        anlage = LEV_GROSS_STRASSEN.get(norm_strasse(d.get("strasse")))
         if anlage:
             o.geschosse = 6
             vorab = [f"Leverkusen: {anlage} ist laut GMB 2026 S. 45 eine Großwohnanlage über 5 Vollgeschosse."]
@@ -505,7 +511,12 @@ def ermittle(d):
             kand.append({"art": "GMB-Stadtteil", **g})
         elif not kand:
             hinw.append(f"Köln: Stadtteil '{d.get('stadtteil')}' nicht in der Rückfalltabelle (nur rechtsrheinisch).")
-    if kom == "Leverkusen" and ((o.geschosse and o.geschosse > 5) or (lev_hoch_unklar and kand)):
+    if kom == "Leverkusen" and anlage and o.geschosse and o.geschosse > 5:
+        w = LEV_GROSS_ANLAGE[anlage]
+        kand.append({"art": "Marktdaten", "wert_qm": w, "spanne_qm": (w, w),
+                     "quelle": f"Tab Marktdaten, GMB Leverkusen 2026 S. 45, Anlage {anlage} {fmt(w)} €/m² "
+                               "(Kauffälle 2025)", "hinweise": []})
+    elif kom == "Leverkusen" and ((o.geschosse and o.geschosse > 5) or (lev_hoch_unklar and kand)):
         kand.append({"art": "Marktdaten", "wert_qm": LEV_GROSS["einfach"],
                      "spanne_qm": (LEV_GROSS["einfach"], LEV_GROSS["gut"]),
                      "quelle": "Tab Marktdaten, GMB Leverkusen 2026 S. 44, Großwohnanlagen einfach/mittel/gut "
@@ -521,7 +532,18 @@ def ermittle(d):
     lo, hi = min(werte), max(werte)
     # Ausnahme "unter Marktwert" im Vorfilter nur mit gesichertem Hoechstwert: haengt der Richtwert an einer
     # unbekannten Geschosszahl (Leverkusen), zaehlt fuer die Ausnahme nur der Wert der Grosswohnanlagen.
-    hi_ausnahme = LEV_GROSS["gut"] if lev_hoch_unklar else hi
+    # Bei mehreren moeglichen Richtwertzonen (Hausnummer fehlt) zaehlt der Median der Zonenwerte (V4,
+    # Katterbach 171522998: der hoechste Zonenwert einer langen Strasse liess ein Objekt 20 % ueber Marktwert durch).
+    rw = sorted(k["wert_qm"] for k in kand if k["art"] == "Richtwert")
+    if lev_hoch_unklar:
+        hi_ausnahme = LEV_GROSS["gut"]
+    elif len(rw) > 1:
+        m = len(rw) // 2
+        hi_ausnahme = rw[m] if len(rw) % 2 else (rw[m - 1] + rw[m]) / 2
+        hinw.append(f"Mehrere Richtwertzonen: Für die Ausnahme \"unter Marktwert\" zählt der Median "
+                    f"{fmt(hi_ausnahme)} €/m², nicht der höchste Wert.")
+    else:
+        hi_ausnahme = hi
     r.update(marktwert_max_ausnahme=round(hi_ausnahme * o.flaeche) if o.flaeche else None)
     r.update(status="eindeutig" if len(kand) == 1 and kand[0]["art"] == "Richtwert" else "unsicher",
              wert_qm=lo, wert_qm_max=hi,
@@ -627,7 +649,7 @@ def selbsttest():
           for k in r["kandidaten"])), 1, 0)
     r = ermittle({"kommune": "Leverkusen", "strasse": "Hamberger Straße", "baujahr": 1971,
                   "wohnflaeche_miete": 78.01})
-    pruef("Leverkusen Hamberger Straße: Großwohnanlage je m²", r["wert_qm"], 1750, 0)
+    pruef("Leverkusen Hamberger Straße: Anlagenwert S. 45 je m²", r["wert_qm"], 1745, 0)
     pruef("Leverkusen Hamberger Straße: kein Richtwert", int(all(k["art"] != "Richtwert"
           for k in r["kandidaten"])), 1, 0)
     r = ermittle({"kommune": "Leverkusen", "strasse": "Weiherstraße", "hausnummer": "15", "baujahr": 1967,
@@ -640,6 +662,14 @@ def selbsttest():
     r = ermittle({"kommune": "Leverkusen", "strasse": "Weiherstraße", "hausnummer": "15", "baujahr": 1967,
                   "wohnflaeche_miete": 81, "geschosse": 11})
     pruef("Leverkusen 11 Geschosse: nur Großwohnanlage", int(len(r["kandidaten"]) == 1), 1, 0)
+    r = ermittle({"kommune": "Leverkusen", "strasse": "Theodor-Heuss-Ring", "baujahr": 1966,
+                  "wohnflaeche_miete": 53.03, "miete_ist_monat": 356})
+    pruef("Steinbüchel Theodor-Heuss-Ring: Anlagenwert S. 45 je m²", r["wert_qm"], 1935, 0)
+    pruef("Steinbüchel Theodor-Heuss-Ring: ein Wert", r["wert_qm_max"], 1935, 0)
+    r = ermittle({"kommune": "Bergisch Gladbach", "strasse": "Katterbachstraße", "baujahr": 1972,
+                  "wohnflaeche_miete": 58.41, "miete_ist_monat": 600})
+    pruef("Katterbach ohne Nr.: Ausnahme mit Median (2.550 €/m²)", r["marktwert_max_ausnahme"], 148946, 60)
+    pruef("Katterbach 179.000 €: keine Ausnahme mehr", int(vorfilter(r, 179000).startswith("weiterleiten")), 0, 0)
     pruef("Vorfilter: 30 % über höchstem Wert", int(vorfilter({"marktwert_max": 100000}, 130000)
                                                      .startswith("aussortieren")), 1, 0)
     pruef("Vorfilter: 10 % unter höchstem Wert", int(vorfilter({"marktwert_max": 100000}, 90000)
