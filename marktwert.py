@@ -540,7 +540,7 @@ def ermittle(d):
     elif len(rw) > 1:
         m = len(rw) // 2
         hi_ausnahme = rw[m] if len(rw) % 2 else (rw[m - 1] + rw[m]) / 2
-        hinw.append(f"Mehrere Richtwertzonen: Für die Ausnahme \"unter Marktwert\" zählt der Median "
+        hinw.append(f"Mehrere Richtwertzonen: Für den Renditefilter im Vorfilter zählt der Median "
                     f"{fmt(hi_ausnahme)} €/m², nicht der höchste Wert.")
     else:
         hi_ausnahme = hi
